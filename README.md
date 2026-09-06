@@ -2,7 +2,7 @@
 
 An interactive visualization of the first 768 decimal digits of π, mapped onto an Archimedean spiral. Each digit is colour-coded (0–9), and the **Feynman Point** — six consecutive 9s beginning at the 762nd decimal place — pulses in gold.
 
-**[View live →](https://mariuscomper.github.io/pi-spiral/)** *(update with your GitHub Pages URL)*
+**[View live →](https://mariuscomper.github.io/pi-spiral/)**
 
 ## Features
 
@@ -18,10 +18,7 @@ An interactive visualization of the first 768 decimal digits of π, mapped onto 
 
 Open `index.html` in any modern browser. That's it.
 
-To host on GitHub Pages:
-1. Rename `pi-spiral.html` → `index.html`
-2. Push to a repo
-3. Enable Pages in repo settings (deploy from main branch)
+The repository includes a GitHub Actions workflow for Pages. Push to `main`, or run the workflow manually from the Actions tab.
 
 ## The Feynman Point
 
